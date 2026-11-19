@@ -38,8 +38,11 @@
           </thead> 
           <tbody> 
           <tr> 
-            <td>1</td> 
-            <td>Agile software development</td> 
+            <td>1</td>
+            <td>
+                <a href="M7hG_occ6uZmyFt5kaAm__EALw_wcB" target="_blank">
+                Agile software development 
+            </a></td>
             <td>fall</td> 
             <td>82</td> 
           </tr> 
@@ -62,7 +65,42 @@
             <td>65</td> 
           </tr> 
           </tbody> 
+
+          <tfoot>
+            <th>#</th>
+            <th>Course footer</th>
+            <th>Semester</th>
+            <th>Grade</th>
+          </tfoot>
         </table> 
+
+        <form action="#">
+          <label for="course-title">Course title</label>
+          <br>
+
+          <input type="text" id="course-title" placeholder="Enter the course title">
+          <br>
+
+          <label for="semester">Semester:</label>
+          <br>
+
+          <select name="semester-selector" id="semester">
+            <option value="Fall">Fall</option>
+            <option value="Spring">Spring</option>
+          </select>
+          <br>
+
+          <strong>Attendance</strong>
+          <br>
+          <input name="attendance-selector" type="radio" id="virtual-attendance">
+          <label for="virtual-attendance">Virtual attendance</label>
+          <br>
+
+          <input name="attendance-selector" type="radio" id="physical-attendance">
+          <label for="physical-attendance">Physical attendance</label>
+          <br>
+        </form>
+        
       </section>
     </header> 
 
